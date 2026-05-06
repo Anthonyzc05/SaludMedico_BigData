@@ -1,0 +1,71 @@
+services:
+  # Servicio de Kafka.
+  # Kafka recibirá los eventos de pedidos en tiempo real.
+  broker:
+    image: apache/kafka:4.2.0
+    hostname: broker
+    container_name: rapidex-broker
+    ports:
+      # Puerto para conectarnos desde nuestra computadora.
+      - "9092:9092"
+    environment:
+      # Identificador único del nodo Kafka.
+      KAFKA_NODE_ID: 1
+
+      # Kafka moderno trabaja en modo KRaft, sin ZooKeeper.
+      KAFKA_PROCESS_ROLES: "broker,controller"
+
+      # Define los listeners disponibles:
+      # CONTROLLER: comunicación interna del controlador.
+      # PLAINTEXT: comunicación entre servicios Docker.
+      # PLAINTEXT_HOST: comunicación desde la máquina local.
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: "CONTROLLER:PLAINTEXT,PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT"
+
+      # Listener usado entre brokers.
+      KAFKA_INTER_BROKER_LISTENER_NAME: "PLAINTEXT"
+
+      # Listener usado por el controlador.
+      KAFKA_CONTROLLER_LISTENER_NAMES: "CONTROLLER"
+
+      # Define en qué puertos escucha Kafka dentro del contenedor.
+      KAFKA_LISTENERS: "CONTROLLER://:29093,PLAINTEXT://:19092,PLAINTEXT_HOST://:9092"
+
+      # Define cómo los clientes encontrarán Kafka.
+      # Desde tu PC: localhost:9092
+      # Desde otros contenedores: broker:19092
+      KAFKA_ADVERTISED_LISTENERS: "PLAINTEXT://broker:19092,PLAINTEXT_HOST://localhost:9092"
+
+      # Define el controlador KRaft.
+      KAFKA_CONTROLLER_QUORUM_VOTERS: "1@broker:29093"
+
+      # Identificador del cluster Kafka.
+      CLUSTER_ID: "4L6g3nShT-eMCtK--X86sw"
+
+      # Como usaremos un solo nodo, los factores de replicación deben ser 1.
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_GROUP_INITIAL_REBALANCE_DELAY_MS: 0
+
+      # Configuración adicional para Kafka 4.x en modo local.
+      KAFKA_SHARE_COORDINATOR_STATE_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_SHARE_COORDINATOR_STATE_TOPIC_MIN_ISR: 1
+
+      # Carpeta interna donde Kafka guardará logs.
+      KAFKA_LOG_DIRS: "/tmp/kraft-combined-logs"
+
+  # Servicio de trabajo con Spark y Python.
+  # Aquí ejecutaremos los scripts de generación, batch y streaming.
+  spark:
+    build: .
+    container_name: rapidex-spark
+    depends_on:
+      - broker
+    volumes:
+      # Monta todo el proyecto dentro del contenedor en /app.
+      # Esto permite editar en VS Code y ejecutar dentro de Docker.
+      - ./:/app
+    working_dir: /app
+    environment:
+      PYTHONUNBUFFERED: "1"
+    command: tail -f /dev/null
