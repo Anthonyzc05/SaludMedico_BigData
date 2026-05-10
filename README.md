@@ -2,7 +2,7 @@
 
 ## 1. Descripción del caso
 
-Rapídex es una empresa ficticia de delivery que opera en varios distritos de Lima.
+Rapídex es una empresa ficticia tienda de delivery que opera en varios distritos de Lima.
 La empresa necesita analizar pedidos históricos y eventos en tiempo real para detectar demanda, retrasos, cancelaciones y pedidos en riesgo.
 
 ## 2. Objetivo general
