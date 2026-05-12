@@ -1,0 +1,39 @@
+event_id,id_paciente,event_type,distrito,diagnostico_principal,especialidad,nivel_riesgo_historico,wearable,frecuencia_cardiaca_bpm,spo2_porcentaje,temperatura_corporal_c,risk_score,es_critico,requiere_atencion,event_timestamp,batch_id
+EVT-0000489,PAC-002737,evento_critico,Ate,Hipotiroidismo,Endocrinología,bajo,Fitbit Sense 2,135,93,38.1,1.0,True,True,2026-05-12 06:44:40,7
+EVT-0000490,PAC-001175,alerta_fc_alta,Barranco,Enfermedad Renal Crónica,Nefrología,alto,Fitbit Charge 6,151,87,38.8,1.0,True,True,2026-05-12 06:44:40,7
+EVT-0000492,PAC-003922,alerta_fc_alta,Surco,Lupus Eritematoso Sistémico,Reumatología,moderado,Fitbit Charge 6,152,89,38.8,1.0,True,True,2026-05-12 06:44:40,7
+EVT-0000498,PAC-002182,alerta_fc_alta,San Borja,Angina Estable,Cardiología,crítico,Apple Watch Series 9,137,93,39.2,1.0,True,True,2026-05-12 06:44:41,7
+EVT-0000510,PAC-004158,alerta_fc_alta,San Miguel,Asma Bronquial,Neumología,alto,Samsung Galaxy Watch 6,153,86,38.3,1.0,True,True,2026-05-12 06:44:42,7
+EVT-0000526,PAC-005927,alerta_fc_alta,Barranco,Dislipidemia Mixta,Cardiología,moderado,Samsung Galaxy Watch 6,117,86,37.9,1.0,True,True,2026-05-12 06:44:43,7
+EVT-0000537,PAC-009219,evento_critico,Cercado de Lima,Dislipidemia Mixta,Cardiología,crítico,Xiaomi Mi Band 8,157,86,38.7,1.0,True,True,2026-05-12 06:44:44,7
+EVT-0000539,PAC-009971,alerta_fc_alta,Los Olivos,Angina Estable,Cardiología,alto,Garmin Venu 3,135,87,37.5,1.0,True,True,2026-05-12 06:44:45,7
+EVT-0000542,PAC-002265,alerta_fc_alta,Jesús María,Asma Bronquial,Neumología,crítico,Fitbit Charge 6,155,92,38.4,1.0,True,True,2026-05-12 06:44:45,7
+EVT-0000544,PAC-002140,evento_critico,Lince,Enfermedad Pulmonar Obstructiva Crónica,Neumología,bajo,Garmin Venu 3,134,92,38.8,1.0,True,True,2026-05-12 06:44:45,7
+EVT-0000549,PAC-008451,evento_critico,Cercado de Lima,Nefropatía Diabética,Nefrología,moderado,Fitbit Charge 6,111,89,38.9,1.0,True,True,2026-05-12 06:44:46,7
+EVT-0000550,PAC-004779,alerta_fc_alta,La Molina,Diabetes Mellitus Tipo 2,Endocrinología,moderado,Xiaomi Mi Band 8,132,90,37.8,1.0,True,True,2026-05-12 06:44:46,7
+EVT-0000555,PAC-001299,alerta_spo2_bajo,San Luis,Diabetes Mellitus Tipo 1,Endocrinología,crítico,Fitbit Sense 2,115,88,37.6,1.0,True,True,2026-05-12 06:44:46,7
+EVT-0000562,PAC-003464,evento_critico,Rímac,Hipotiroidismo,Endocrinología,alto,Amazfit GTR 4,151,88,38.5,1.0,True,True,2026-05-12 06:44:47,7
+EVT-0000563,PAC-005901,evento_critico,San Luis,Fibrilación Auricular,Cardiología,crítico,Apple Watch Series 9,155,92,37.9,1.0,True,True,2026-05-12 06:44:47,7
+EVT-0000566,PAC-004477,evento_critico,Jesús María,Nefropatía Diabética,Nefrología,bajo,Xiaomi Mi Band 8,145,91,37.6,1.0,True,True,2026-05-12 06:44:47,7
+EVT-0000583,PAC-005416,alerta_fc_alta,Pueblo Libre,Hipertensión Arterial Esencial,Cardiología,bajo,Garmin Venu 3,149,93,38.8,1.0,True,True,2026-05-12 06:44:49,7
+EVT-0000568,PAC-009806,evento_critico,Barranco,Insuficiencia Cardíaca Congestiva,Cardiología,alto,Samsung Galaxy Watch 6,125,92,37.8,0.89,True,True,2026-05-12 06:44:48,7
+EVT-0000565,PAC-007795,alerta_spo2_bajo,La Molina,Diabetes Mellitus Tipo 1,Endocrinología,bajo,Apple Watch Series 9,114,87,37.5,0.86,True,True,2026-05-12 06:44:47,7
+EVT-0000491,PAC-004048,alerta_spo2_bajo,Chorrillos,Dislipidemia Mixta,Cardiología,moderado,Huawei Watch GT4,123,84,37.2,0.85,True,True,2026-05-12 06:44:40,7
+EVT-0000541,PAC-000601,alerta_temperatura,Surco,Enfermedad Pulmonar Obstructiva Crónica,Neumología,alto,Xiaomi Mi Band 8,115,93,39.3,0.81,True,True,2026-05-12 06:44:45,7
+EVT-0000536,PAC-001748,lectura_anomala,San Isidro,Dislipidemia Mixta,Cardiología,crítico,Fitbit Charge 6,120,91,37.0,0.75,True,True,2026-05-12 06:44:44,7
+EVT-0000545,PAC-003195,alerta_spo2_bajo,Pueblo Libre,Enfermedad Pulmonar Obstructiva Crónica,Neumología,moderado,Fitbit Sense 2,124,93,36.7,0.75,True,True,2026-05-12 06:44:45,7
+EVT-0000525,PAC-000172,alerta_spo2_bajo,Pueblo Libre,Diabetes Mellitus Tipo 2,Endocrinología,alto,Samsung Galaxy Watch 6,125,90,37.5,0.73,True,True,2026-05-12 06:44:43,7
+EVT-0000557,PAC-008198,alerta_spo2_bajo,El Agustino,Enfermedad Renal Crónica,Nefrología,crítico,Huawei Watch GT4,123,93,37.1,0.73,True,True,2026-05-12 06:44:47,7
+EVT-0000584,PAC-001979,lectura_anomala,Miraflores,Insuficiencia Cardíaca Congestiva,Cardiología,alto,Amazfit GTR 4,118,92,37.4,0.73,True,True,2026-05-12 06:44:49,7
+EVT-0000530,PAC-002815,lectura_anomala,San Isidro,Hipertensión Arterial Esencial,Cardiología,crítico,Apple Watch Series 9,127,92,36.7,0.71,True,True,2026-05-12 06:44:44,7
+EVT-0000522,PAC-004102,alerta_spo2_bajo,Chorrillos,Dislipidemia Mixta,Cardiología,crítico,Fitbit Charge 6,124,90,37.2,0.67,False,True,2026-05-12 06:44:43,7
+EVT-0000567,PAC-003888,alerta_spo2_bajo,San Luis,Asma Bronquial,Neumología,moderado,Garmin Venu 3,112,91,37.1,0.67,False,True,2026-05-12 06:44:48,7
+EVT-0000506,PAC-009782,alerta_fc_alta,Surco,Lupus Eritematoso Sistémico,Reumatología,moderado,Garmin Venu 3,110,91,37.6,0.55,False,True,2026-05-12 06:44:41,7
+EVT-0000524,PAC-003165,alerta_spo2_bajo,Pueblo Libre,Diabetes Mellitus Tipo 1,Endocrinología,alto,Garmin Venu 3,110,85,37.0,0.55,False,True,2026-05-12 06:44:43,7
+EVT-0000556,PAC-008150,alerta_temperatura,Lince,Asma Bronquial,Neumología,alto,Fitbit Sense 2,113,94,38.5,0.52,False,False,2026-05-12 06:44:46,7
+EVT-0000574,PAC-008085,alerta_temperatura,El Agustino,Insuficiencia Cardíaca Congestiva,Cardiología,moderado,Fitbit Sense 2,114,97,38.2,0.51,False,False,2026-05-12 06:44:48,7
+EVT-0000493,PAC-001685,lectura_anomala,Los Olivos,Diabetes Mellitus Tipo 1,Endocrinología,crítico,Xiaomi Mi Band 8,116,94,37.3,0.41,False,False,2026-05-12 06:44:40,7
+EVT-0000585,PAC-002413,lectura_anomala,San Isidro,Hipotiroidismo,Endocrinología,alto,Garmin Venu 3,101,91,37.0,0.38,False,False,2026-05-12 06:44:49,7
+EVT-0000552,PAC-009114,lectura_anomala,San Isidro,Dislipidemia Mixta,Cardiología,crítico,Amazfit GTR 4,116,94,37.3,0.37,False,False,2026-05-12 06:44:46,7
+EVT-0000586,PAC-009300,lectura_anomala,Jesús María,Dislipidemia Mixta,Cardiología,alto,Samsung Galaxy Watch 6,106,91,37.2,0.36,False,False,2026-05-12 06:44:49,7
+EVT-0000509,PAC-006716,lectura_anomala,Jesús María,Angina Estable,Cardiología,alto,Fitbit Charge 6,104,92,37.2,0.33,False,False,2026-05-12 06:44:42,7

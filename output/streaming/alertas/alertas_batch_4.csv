@@ -1,0 +1,16 @@
+event_id,id_paciente,event_type,distrito,diagnostico_principal,especialidad,nivel_riesgo_historico,wearable,frecuencia_cardiaca_bpm,spo2_porcentaje,temperatura_corporal_c,risk_score,es_critico,requiere_atencion,event_timestamp,batch_id
+EVT-0000294,PAC-000837,alerta_fc_alta,Ate,Enfermedad Pulmonar Obstructiva Crónica,Neumología,alto,Amazfit GTR 4,140,90,38.0,1.0,True,True,2026-05-12 06:44:20,4
+EVT-0000320,PAC-009926,alerta_fc_alta,Santa Anita,Diabetes Mellitus Tipo 1,Endocrinología,crítico,Fitbit Sense 2,134,86,37.8,1.0,True,True,2026-05-12 06:44:22,4
+EVT-0000322,PAC-005463,alerta_fc_alta,Pueblo Libre,Diabetes Mellitus Tipo 1,Endocrinología,moderado,Fitbit Sense 2,150,93,38.1,1.0,True,True,2026-05-12 06:44:23,4
+EVT-0000329,PAC-004859,evento_critico,Los Olivos,Enfermedad Renal Crónica,Nefrología,alto,Amazfit GTR 4,143,88,38.6,1.0,True,True,2026-05-12 06:44:23,4
+EVT-0000332,PAC-001524,evento_critico,Los Olivos,Fibrilación Auricular,Cardiología,crítico,Huawei Watch GT4,148,86,38.9,1.0,True,True,2026-05-12 06:44:24,4
+EVT-0000324,PAC-000243,alerta_spo2_bajo,San Borja,Angina Estable,Cardiología,bajo,Fitbit Charge 6,114,84,37.3,0.94,True,True,2026-05-12 06:44:23,4
+EVT-0000293,PAC-006140,evento_critico,Pueblo Libre,Diabetes Mellitus Tipo 2,Endocrinología,alto,Amazfit GTR 4,124,92,38.4,0.88,True,True,2026-05-12 06:44:20,4
+EVT-0000291,PAC-007728,lectura_anomala,San Luis,Asma Bronquial,Neumología,alto,Fitbit Charge 6,113,92,36.9,0.74,True,True,2026-05-12 06:44:19,4
+EVT-0000312,PAC-009855,lectura_anomala,Pueblo Libre,Fibrilación Auricular,Cardiología,crítico,Fitbit Charge 6,129,91,36.8,0.68,False,False,2026-05-12 06:44:22,4
+EVT-0000318,PAC-004220,alerta_fc_alta,Surco,Dislipidemia Mixta,Cardiología,bajo,Fitbit Charge 6,124,90,37.4,0.67,False,True,2026-05-12 06:44:22,4
+EVT-0000331,PAC-005445,lectura_anomala,Los Olivos,Insuficiencia Cardíaca Congestiva,Cardiología,alto,Fitbit Sense 2,117,92,37.1,0.67,False,False,2026-05-12 06:44:24,4
+EVT-0000315,PAC-003001,alerta_spo2_bajo,Lince,Diabetes Mellitus Tipo 2,Endocrinología,moderado,Samsung Galaxy Watch 6,97,88,36.8,0.59,False,True,2026-05-12 06:44:22,4
+EVT-0000287,PAC-001638,alerta_spo2_bajo,Magdalena,Fibrilación Auricular,Cardiología,crítico,Xiaomi Mi Band 8,107,87,36.8,0.52,False,True,2026-05-12 06:44:19,4
+EVT-0000308,PAC-006883,alerta_spo2_bajo,Surquillo,Lupus Eritematoso Sistémico,Reumatología,crítico,Apple Watch Series 9,96,87,37.0,0.52,False,True,2026-05-12 06:44:21,4
+EVT-0000286,PAC-004674,lectura_anomala,Cercado de Lima,Diabetes Mellitus Tipo 1,Endocrinología,alto,Fitbit Sense 2,117,94,36.9,0.39,False,False,2026-05-12 06:44:19,4

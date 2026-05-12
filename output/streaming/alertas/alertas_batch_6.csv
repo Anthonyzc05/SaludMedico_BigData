@@ -1,0 +1,38 @@
+event_id,id_paciente,event_type,distrito,diagnostico_principal,especialidad,nivel_riesgo_historico,wearable,frecuencia_cardiaca_bpm,spo2_porcentaje,temperatura_corporal_c,risk_score,es_critico,requiere_atencion,event_timestamp,batch_id
+EVT-0000392,PAC-006820,evento_critico,Rímac,Nefropatía Diabética,Nefrología,bajo,Samsung Galaxy Watch 6,148,91,37.6,1.0,True,True,2026-05-12 06:44:30,6
+EVT-0000399,PAC-009774,alerta_fc_alta,San Isidro,Lupus Eritematoso Sistémico,Reumatología,bajo,Amazfit GTR 4,130,87,37.7,1.0,True,True,2026-05-12 06:44:31,6
+EVT-0000403,PAC-008063,alerta_fc_alta,El Agustino,Angina Estable,Cardiología,bajo,Garmin Venu 3,153,93,38.8,1.0,True,True,2026-05-12 06:44:31,6
+EVT-0000409,PAC-009325,alerta_spo2_bajo,Rímac,Fibrilación Auricular,Cardiología,bajo,Huawei Watch GT4,113,89,37.6,1.0,True,True,2026-05-12 06:44:32,6
+EVT-0000413,PAC-002774,evento_critico,Miraflores,Diabetes Mellitus Tipo 2,Endocrinología,moderado,Apple Watch Series 9,160,93,37.8,1.0,True,True,2026-05-12 06:44:32,6
+EVT-0000414,PAC-009950,alerta_fc_alta,Surco,Angina Estable,Cardiología,moderado,Huawei Watch GT4,142,91,38.7,1.0,True,True,2026-05-12 06:44:32,6
+EVT-0000415,PAC-005596,evento_critico,San Isidro,Nefropatía Diabética,Nefrología,moderado,Garmin Venu 3,144,92,37.8,1.0,True,True,2026-05-12 06:44:32,6
+EVT-0000419,PAC-009376,alerta_fc_alta,Santa Anita,Hipertensión Arterial Esencial,Cardiología,alto,Samsung Galaxy Watch 6,148,87,38.9,1.0,True,True,2026-05-12 06:44:33,6
+EVT-0000428,PAC-003728,alerta_fc_alta,Surquillo,Enfermedad Renal Crónica,Nefrología,crítico,Garmin Venu 3,125,88,37.9,1.0,True,True,2026-05-12 06:44:34,6
+EVT-0000436,PAC-003121,alerta_fc_alta,San Luis,Lupus Eritematoso Sistémico,Reumatología,bajo,Xiaomi Mi Band 8,132,91,38.0,1.0,True,True,2026-05-12 06:44:34,6
+EVT-0000439,PAC-007419,alerta_fc_alta,Chorrillos,Fibrilación Auricular,Cardiología,moderado,Fitbit Sense 2,126,88,38.3,1.0,True,True,2026-05-12 06:44:35,6
+EVT-0000444,PAC-007272,alerta_fc_alta,Lince,Dislipidemia Mixta,Cardiología,alto,Huawei Watch GT4,158,90,37.6,1.0,True,True,2026-05-12 06:44:35,6
+EVT-0000448,PAC-003728,evento_critico,Surquillo,Enfermedad Renal Crónica,Nefrología,crítico,Garmin Venu 3,145,92,39.0,1.0,True,True,2026-05-12 06:44:36,6
+EVT-0000452,PAC-005990,alerta_fc_alta,San Borja,Diabetes Mellitus Tipo 2,Endocrinología,alto,Amazfit GTR 4,131,91,38.5,1.0,True,True,2026-05-12 06:44:36,6
+EVT-0000458,PAC-000897,alerta_fc_alta,San Borja,Angina Estable,Cardiología,crítico,Huawei Watch GT4,155,90,39.1,1.0,True,True,2026-05-12 06:44:37,6
+EVT-0000459,PAC-002268,alerta_spo2_bajo,Magdalena,Diabetes Mellitus Tipo 1,Endocrinología,moderado,Samsung Galaxy Watch 6,117,84,36.6,0.93,True,True,2026-05-12 06:44:37,6
+EVT-0000478,PAC-001074,alerta_fc_alta,San Isidro,Lupus Eritematoso Sistémico,Reumatología,bajo,Fitbit Sense 2,120,92,38.0,0.9,True,True,2026-05-12 06:44:39,6
+EVT-0000483,PAC-004984,alerta_fc_alta,Lince,Diabetes Mellitus Tipo 1,Endocrinología,moderado,Garmin Venu 3,118,90,38.8,0.85,True,True,2026-05-12 06:44:39,6
+EVT-0000481,PAC-007851,alerta_fc_alta,Magdalena,Angina Estable,Cardiología,moderado,Fitbit Sense 2,129,90,38.0,0.84,True,True,2026-05-12 06:44:39,6
+EVT-0000407,PAC-008350,alerta_fc_alta,San Miguel,Nefropatía Diabética,Nefrología,moderado,Amazfit GTR 4,124,93,37.8,0.83,True,True,2026-05-12 06:44:31,6
+EVT-0000434,PAC-002062,alerta_fc_alta,San Isidro,Enfermedad Pulmonar Obstructiva Crónica,Neumología,moderado,Huawei Watch GT4,124,90,38.1,0.82,True,True,2026-05-12 06:44:34,6
+EVT-0000426,PAC-009337,alerta_fc_alta,Lince,Hipertensión Arterial Esencial,Cardiología,bajo,Apple Watch Series 9,112,91,37.8,0.81,True,True,2026-05-12 06:44:33,6
+EVT-0000461,PAC-002919,lectura_anomala,Rímac,Insuficiencia Cardíaca Congestiva,Cardiología,alto,Apple Watch Series 9,124,90,36.9,0.75,True,True,2026-05-12 06:44:37,6
+EVT-0000421,PAC-004826,lectura_anomala,Santa Anita,Asma Bronquial,Neumología,alto,Garmin Venu 3,115,92,36.9,0.74,True,True,2026-05-12 06:44:33,6
+EVT-0000422,PAC-008239,alerta_spo2_bajo,Ate,Dislipidemia Mixta,Cardiología,alto,Fitbit Sense 2,115,91,36.8,0.71,True,True,2026-05-12 06:44:33,6
+EVT-0000486,PAC-001990,alerta_spo2_bajo,Magdalena,Angina Estable,Cardiología,alto,Xiaomi Mi Band 8,109,89,37.7,0.71,True,True,2026-05-12 06:44:39,6
+EVT-0000420,PAC-003538,alerta_spo2_bajo,Santa Anita,Angina Estable,Cardiología,moderado,Fitbit Charge 6,98,87,37.8,0.69,False,True,2026-05-12 06:44:33,6
+EVT-0000464,PAC-005900,alerta_spo2_bajo,Jesús María,Lupus Eritematoso Sistémico,Reumatología,bajo,Garmin Venu 3,124,93,37.1,0.69,False,True,2026-05-12 06:44:37,6
+EVT-0000455,PAC-008731,alerta_spo2_bajo,Barranco,Insuficiencia Cardíaca Congestiva,Cardiología,alto,Garmin Venu 3,92,85,37.6,0.66,False,True,2026-05-12 06:44:36,6
+EVT-0000424,PAC-006244,alerta_spo2_bajo,El Agustino,Hipotiroidismo,Endocrinología,moderado,Samsung Galaxy Watch 6,109,85,36.9,0.58,False,True,2026-05-12 06:44:33,6
+EVT-0000395,PAC-000708,lectura_anomala,Santa Anita,Diabetes Mellitus Tipo 1,Endocrinología,alto,Huawei Watch GT4,109,90,37.6,0.55,False,False,2026-05-12 06:44:30,6
+EVT-0000438,PAC-002416,alerta_spo2_bajo,Cercado de Lima,Hipotiroidismo,Endocrinología,alto,Apple Watch Series 9,109,86,36.8,0.51,False,True,2026-05-12 06:44:35,6
+EVT-0000460,PAC-002119,lectura_anomala,Lince,Insuficiencia Cardíaca Congestiva,Cardiología,alto,Apple Watch Series 9,120,94,36.9,0.42,False,False,2026-05-12 06:44:37,6
+EVT-0000393,PAC-005092,lectura_anomala,Magdalena,Diabetes Mellitus Tipo 1,Endocrinología,crítico,Samsung Galaxy Watch 6,125,95,37.0,0.37,False,False,2026-05-12 06:44:30,6
+EVT-0000427,PAC-008992,lectura_anomala,El Agustino,Diabetes Mellitus Tipo 1,Endocrinología,alto,Garmin Venu 3,99,91,37.5,0.37,False,False,2026-05-12 06:44:33,6
+EVT-0000456,PAC-004563,lectura_anomala,Barranco,Diabetes Mellitus Tipo 1,Endocrinología,crítico,Amazfit GTR 4,96,90,37.5,0.35,False,False,2026-05-12 06:44:36,6
+EVT-0000404,PAC-004178,lectura_anomala,Magdalena,Angina Estable,Cardiología,alto,Huawei Watch GT4,98,90,36.5,0.32,False,False,2026-05-12 06:44:31,6
