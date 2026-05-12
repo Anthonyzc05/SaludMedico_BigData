@@ -1,0 +1,14 @@
+diagnostico_principal,total_lecturas,fc_promedio,spo2_promedio,temp_promedio,total_alertas
+Hipotiroidismo,3952,92.4,95.2,36.9,1663
+Dislipidemia Mixta,4018,90.8,95.4,36.91,1658
+Diabetes Mellitus Tipo 1,3855,91.9,95.2,36.92,1646
+Nefropatía Diabética,4143,89.9,95.5,36.9,1584
+Hipertensión Arterial Esencial,3838,91.0,95.4,36.9,1576
+Lupus Eritematoso Sistémico,4089,90.0,95.5,36.9,1551
+Diabetes Mellitus Tipo 2,3691,91.6,95.3,36.92,1549
+Asma Bronquial,3868,90.8,95.4,36.91,1545
+Enfermedad Pulmonar Obstructiva Crónica,3773,91.0,95.3,36.9,1531
+Enfermedad Renal Crónica,3623,91.6,95.3,36.9,1481
+Angina Estable,3708,90.5,95.4,36.91,1456
+Insuficiencia Cardíaca Congestiva,3728,90.0,95.5,36.91,1446
+Fibrilación Auricular,3714,90.4,95.5,36.9,1408

@@ -288,7 +288,7 @@ def main() -> None:
             distrito,
             COUNT(*)       AS total_lecturas,
             SUM(alerta_int)AS total_alertas,
-            ROUND(SUM(alerta_int)100.0/COUNT(),2) AS pct_alertas
+            ROUND(SUM(alerta_int)*100.0/COUNT(*),2) AS pct_alertas 
         FROM signos
         GROUP BY distrito
         ORDER BY total_alertas DESC
@@ -411,5 +411,5 @@ def main() -> None:
     spark.stop()
 
 
-if _name_ == "_main_":
-    main()
+if __name__ == "__main__":
+    main() 

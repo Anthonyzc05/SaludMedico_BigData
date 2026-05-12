@@ -1,0 +1,5 @@
+nivel_riesgo,total_lecturas,total_alertas,fc_promedio,spo2_promedio,pct_alertas
+alto,12930,8738,102.5,94.5,67.58
+crítico,6857,6537,120.2,91.5,95.33
+moderado,17256,2754,84.1,96.0,15.96
+bajo,12957,2065,73.0,97.5,15.94

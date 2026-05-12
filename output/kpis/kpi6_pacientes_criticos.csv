@@ -1,0 +1,21 @@
+id_paciente,diagnostico_principal,nivel_riesgo,distrito,total_lecturas,total_alertas,fc_promedio,spo2_promedio
+PAC-001424,Enfermedad Pulmonar Obstructiva Crónica,crítico,San Borja,16,16,122.9,91.1
+PAC-006893,Insuficiencia Cardíaca Congestiva,crítico,Cercado de Lima,16,16,119.5,92.3
+PAC-004614,Hipertensión Arterial Esencial,crítico,Miraflores,16,15,115.8,91.7
+PAC-004778,Angina Estable,crítico,El Agustino,15,15,119.7,90.6
+PAC-009764,Lupus Eritematoso Sistémico,crítico,El Agustino,15,15,123.1,91.6
+PAC-008095,Fibrilación Auricular,crítico,Jesús María,15,15,120.9,91.1
+PAC-008087,Angina Estable,crítico,Jesús María,17,15,119.8,91.2
+PAC-001400,Asma Bronquial,crítico,Los Olivos,15,14,116.8,91.0
+PAC-005800,Dislipidemia Mixta,crítico,San Borja,15,14,114.0,91.3
+PAC-003675,Diabetes Mellitus Tipo 1,crítico,San Luis,16,14,114.3,92.0
+PAC-000849,Hipotiroidismo,crítico,Pueblo Libre,14,14,120.7,91.9
+PAC-008366,Nefropatía Diabética,crítico,San Luis,14,14,122.1,90.9
+PAC-002562,Fibrilación Auricular,alto,Chorrillos,16,14,104.0,93.7
+PAC-009226,Enfermedad Pulmonar Obstructiva Crónica,crítico,Pueblo Libre,14,14,124.1,90.8
+PAC-001406,Hipotiroidismo,crítico,La Molina,14,13,116.0,91.6
+PAC-004565,Fibrilación Auricular,crítico,Los Olivos,14,13,123.6,91.6
+PAC-009447,Angina Estable,crítico,Cercado de Lima,13,13,117.8,91.6
+PAC-002150,Insuficiencia Cardíaca Congestiva,crítico,Chorrillos,13,13,116.8,91.5
+PAC-000893,Diabetes Mellitus Tipo 2,crítico,Los Olivos,15,13,114.5,92.9
+PAC-000630,Insuficiencia Cardíaca Congestiva,crítico,Chorrillos,13,13,126.3,91.2
