@@ -35,7 +35,7 @@ from pyspark.sql.types import (
 # 1. Rutas
 # ============================================================
 
-BASE_DIR      = Path(_file_).resolve().parents[1]
+BASE_DIR      = Path(__file__).resolve().parents[1]
 RAW_DIR       = BASE_DIR / "data" / "raw"
 PROCESSED_DIR = BASE_DIR / "data" / "processed"
 KPI_DIR       = BASE_DIR / "output" / "kpis"
